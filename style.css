@@ -1,0 +1,50 @@
+body {
+    overflow-x: hidden !important;
+  }
+  
+  .nav-link {
+    color:white!important;
+  }
+  *{
+      font-family: sans-serif;
+  }
+  body{
+    background: pink;
+  }
+  .container{
+      text-align: center;
+      top: 50%;
+      width: 100%;
+  }
+  .container span{
+      color: black;
+      text-transform: uppercase;
+      display: block;
+  }
+  .text1{
+      font-size:40px;
+      font-weight:100;
+      animation: text 3s 1;
+      position: relative;
+  }
+  .text2{
+      font-size: 20px;
+  }
+
+  #colspan{
+    background-color: pink;
+    background-position: left;
+    box-shadow: 0 0 25px;
+    width: 20%;
+    height: 20%; 
+    text-align: justify;
+    float: left;
+    padding: 0 8px;
+    padding-right: 16px;
+   
+  }
+  .contact,
+  .education{
+    background-color:rgb(223, 105, 125);
+  }
+  
